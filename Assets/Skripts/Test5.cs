@@ -10,7 +10,7 @@ public class Test5 : MonoBehaviour
     [SerializeField] GameObject сameraMove; // камера
     [SerializeField] bool zoom; // камера приближённая к объекту или нет
     [SerializeField] Vector3 camPoz; // изначальное положение камеры до приблежения к объекту
-    [SerializeField] Vector3 offset; // разница по Z оси чтобы отдалится от объекта
+    [SerializeField] Vector3 offset; // разница по Y оси чтобы отдалится от объекта
 
     // Start is called before the first frame update
     void Start()
